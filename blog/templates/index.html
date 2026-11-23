@@ -7,7 +7,7 @@
         {% for item in articles %}
         <a href="{% url 'blog:details' item.id %}">
             <article>
-                <p>{{item.content}}</p>
+                <p>{{item.title}}</p>
             </article>
         </a>
         

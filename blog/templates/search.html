@@ -1,0 +1,19 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+    <h1>Resultats de la recherche</h1>
+
+    <p>Votre recherche :{{query}}</p>
+
+    {% for article in articles  %}
+        <article>
+            <p>{{ article.content}}</p>
+            <a href="{% url 'blog:details' article.id %}"> Lire l'article</a>
+        </article>
+
+        {% empty %}
+
+            <p>Aucun article trouve</p>
+    
+    {% endfor %}
+
+{% endblock content %}

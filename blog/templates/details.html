@@ -1,0 +1,14 @@
+{% extends "layouts/base.html" %}
+{% block content %}
+    {% if article %}
+        <article>
+            <h1>Detail de l'article</h1>
+            <p>{{ article.content}}</p>
+        </article>
+    {% else %}
+        <h2>Article introuvable</h2>
+        <p>L'article que vous recherche n'existe pas.</p>
+    {% endif %}
+
+<a href="{% url 'blog:index' %}">Retour a l'accueil</a>
+{% endblock content %}

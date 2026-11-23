@@ -1,0 +1,24 @@
+<nav>
+    <div class="logo">
+        <a href="{% url 'blog:index' %}">Blog Communautaire</a>
+    </div>
+
+    <ul>
+        <li>
+            <a href="{% url 'blog:index' %}">Accueil</a>
+        </li>
+        <li>
+            <a href="#">Articles</a>
+        </li>
+        <li>
+            <a href="#">A proposs</a>
+        </li>
+    </ul>
+
+    <div class="nav-search">
+        <form action=" {% url 'blog:search' %}" method="GET">
+            <input type="text" name="q" placeholder="Rechercher un article...">
+            <button type="submit">Rechercher</button>
+        </form>
+    </div>
+</nav>

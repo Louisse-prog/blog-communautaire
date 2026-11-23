@@ -2,13 +2,13 @@
 {% block content %}
     {% if article %}
         <article>
-            <h1>Detail de l'article</h1>
+            <h1>Détail de l'article</h1>
             <p>{{ article.content}}</p>
         </article>
     {% else %}
         <h2>Article introuvable</h2>
-        <p>L'article que vous recherche n'existe pas.</p>
+        <p>L'article que vous recherché n'existe pas.</p>
     {% endif %}
 
-<a href="{% url 'blog:index' %}">Retour a l'accueil</a>
+<a href="{% url 'blog:index' %}">Retour à l'accueil</a>
 {% endblock content %}

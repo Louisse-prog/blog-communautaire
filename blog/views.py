@@ -3,7 +3,7 @@ data=[
     {
         "id":"1",
         "title":"Pourquoi apprendre à programmer en 2026?",
-        "content":"",
+        "content":"Apprendre à programmer en 2026 reste essentiel pour superviser l'IA, concevoir des systèmes fiables et résoudre des problèmes complexes que les outils automatisés ne gèrent pas seuls",
         "category":"Technologie"
     },
     {

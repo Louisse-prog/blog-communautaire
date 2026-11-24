@@ -8,7 +8,7 @@ L'objectif est de créer une plateforme permettant aux utilisateurs de consulter
 
 - Affichage de la liste des articles.
 - Consultation des détails d'un article.
-- Recherche d'articles à partir de leur contenu.
+- Recherche d'articles à partir de leur titre.
 - Navigation entre les différentes pages.
 - Templates réutilisables grâce à l'héritage Django.
 - Barre de navigation et pied de page communs.
